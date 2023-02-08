@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body style="background-color: aqua;">
+    <nav>
+        <table align="center" border="3" style="background-color: aquamarine;">
+            <th><a style="text-decoration: none; color: black; " href="index.html">Ejercicio Uno</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioDos.html">Ejercicio Dos</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioTres.html">Ejercicio Tres</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioCuatro.html">Ejercicio Cuatro</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioCinco.html">Ejercicio Cinco</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioSeis.html">Ejercicio Seis</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioSiete.html">Ejercicio Siete</a></th>
+            <th><a style="text-decoration: none; color: black; " href="ejercicioOcho.html">Ejercicio Ocho</a></th>
+        </table>
+    </nav>
+    <h1 align="center">Ejercicio Ocho</h1>
+
+    <h2 align="center">DATOS PERSONALES 5(FORMULARIO)</h2>
+
+    <form action="" align="center">
+
+        <table>
+            <thead align="left">
+                <tr>
+                    <th>Nombre:</th><th>Apellidos:</th><th>Edad:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="left">
+                    <th><input type="text" name="nombre" id="nombre"></th>
+                    <th><input type="text" name="apellidos" id="apellidos"></th>
+                    <th><input type="number" name="edad" id="edad" style="width: 55px; height: 12px;"></th>
+                </tr>
+
+                <tr align="left">
+                    <th>Peso:</th><th>Sexo:</th><th>Estado Civil:</th>
+                </tr>
+
+                <tr align="left">
+                    <th><input type="number" name="peso" id="peso" style="width: 55px; height: 12px;">kg</th>
+                    <th><input type="radio" name="sexo" value="hombre">Hombre <input type="radio" name="sexo" value="mujer">Mujer </th>
+                    <th><input type="radio" name="estado" value="casado">Casado <input type="radio" name="estado" value="soltero">Soltero <input type="radio" name="estado" value="otro">Otro </th>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table id="aficiones">
+            <tr align="left">
+                <th><strong>Aficiones:</strong></th>
+                <th><input type="checkbox" name="cine" id="cine">Cine</th>
+                <th><input type="checkbox" name="literatura" id="literatura">Literatura</th>
+                <th><input type="checkbox" name="tebeos" id="tebeos">Tebeos</th>
+            </tr>
+            <tr align="left">
+                <th></th>
+                <th><input type="checkbox" name="deporte" id="deporte">Deporte</th>
+                <th><input type="checkbox" name="musica" id="musica">Mùsica</th>
+                <th><input type="checkbox" name="tv" id="tv">Televisiòn</th>
+            </tr>
+        </table>
+
+        <div align="left">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+
+        <style>th{
+            margin: 10px;
+        }</style>
+    </form>
+</body>
+</html>
